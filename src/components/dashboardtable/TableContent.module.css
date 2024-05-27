@@ -1,0 +1,127 @@
+
+.main:nth-child(odd) {
+    background-color: #f7f4f4;
+}
+
+.main:hover{
+    background-color: #e4e2e2;
+  cursor: pointer;
+}
+
+.main td{
+    padding: 12px 12px 12px 12px;
+    font-size: 14.5px;
+}
+.main p{ 
+    font-size: 14.5px;
+}
+
+.employeeWorkingStatus{
+  display: flex;
+  gap: 2px;
+}
+.employeeWorkingStatus p{
+    display: flex;
+    align-items: center;
+  }
+ 
+.ranks{
+    display: flex;
+   font-weight: 550;
+}
+.rankingIcons{
+    flex: 50%;
+    
+   }
+   .index{
+       flex: 50%;
+       display: flex;
+    justify-content: center;
+   }
+   
+.rankingIcons img{
+    width:1.4rem;
+    height:1.5rem; 
+}
+
+.empName div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14.5px;
+}
+ .avatarImage{
+    width:1.1rem;
+    height:1.1rem; 
+    border-radius: 50%;
+ }
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .main p {
+        font-size: 12px;
+    }
+
+    .employeeWorkingStatus {
+        gap: 1px;
+    }
+
+    .ranks {
+        font-weight: normal;
+    }
+
+    .rankingIcons img {
+        width: 1.2rem;
+        height: 1.3rem;
+    }
+
+    .empName div {
+        font-size: 13px;
+        gap: 8px;
+    }
+
+    .avatarImage {
+        width: 1rem;
+        height: 1rem;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .main td {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .main p {
+        font-size: 10px;
+    }
+
+    .employeeWorkingStatus {
+        gap: 1px;
+    }
+
+    .rankingIcons img {
+        width: 1rem;
+        height: 1.1rem;
+    }
+
+    .empName div {
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .avatarImage {
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    }

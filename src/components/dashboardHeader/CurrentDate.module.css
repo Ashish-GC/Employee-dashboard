@@ -1,0 +1,24 @@
+.currDate{
+ font-weight: 550;
+ text-align: end;
+} 
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .currDate p{
+      font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .currDate p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .currDate p{
+        font-size: 8px;
+    }
+}
