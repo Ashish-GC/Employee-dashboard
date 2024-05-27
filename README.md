@@ -1,7 +1,8 @@
-# React + TypeScript + Vite
+# Employee-dashboard
 
-***Employee Activity Dashboard***
+***Employe dashboard for interviews using React.js***
 
+install node modules : npm install
 Run Command :  npm run dev
 
   Structure : ->
